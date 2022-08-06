@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj": {}
+    "e:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj": {}
   },
   "projects": {
-    "E:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj": {
+    "e:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj",
+        "projectUniqueName": "e:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj",
         "projectName": "ContactsAPI",
-        "projectPath": "E:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj",
+        "projectPath": "e:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj",
         "packagesPath": "C:\\Users\\imtia\\.nuget\\packages\\",
-        "outputPath": "E:\\asp.nets\\aspDotNetCore\\ContactsAPI\\obj\\",
+        "outputPath": "e:\\asp.nets\\aspDotNetCore\\ContactsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\imtia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.7, )"
             },
