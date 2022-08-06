@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj": {}
+    "E:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj": {}
   },
   "projects": {
-    "e:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj": {
+    "E:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj",
+        "projectUniqueName": "E:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj",
         "projectName": "ContactsAPI",
-        "projectPath": "e:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj",
+        "projectPath": "E:\\asp.nets\\aspDotNetCore\\ContactsAPI\\ContactsAPI.csproj",
         "packagesPath": "C:\\Users\\imtia\\.nuget\\packages\\",
-        "outputPath": "e:\\asp.nets\\aspDotNetCore\\ContactsAPI\\obj\\",
+        "outputPath": "E:\\asp.nets\\aspDotNetCore\\ContactsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\imtia\\AppData\\Roaming\\NuGet\\NuGet.Config",

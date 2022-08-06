@@ -1,5 +1,17 @@
 /* resources: 
 https://www.youtube.com/watch?v=3NWT9k-6xGg&list=PLfhXFnx72bDVN5plKqXM4X1E76FJvopht&index=25&t=1s&ab_channel=SameerSaini
+
+
+
+dotnet ef migrations add "Initial Migration"
+
+
+dotnet ef database update
+
+
+
+
+
 */
 using ContactsAPI.Data;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +25,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<ContactsAPIDbContext>(options => options.UseInMemoryDatabase("ContactsDb"));
+//builder.Services.AddDbContext<ContactsAPIDbContext>(options => options.UseInMemoryDatabase("ContactsDb"));
+builder.Services.AddDbContext<ContactsAPIDbContext>(options => 
+options.UseSqlServer(builder.Configuration.GetConnectionString("ContactsApiConnectionString")));
+
 
 var app = builder.Build();
 
